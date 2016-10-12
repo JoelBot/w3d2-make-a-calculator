@@ -12,13 +12,56 @@
 
 </head>
 <body>
+  <form>
 
- <div class="container-fluid">
+    <form>
+      <div class="container">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            Calculatron!
+          </div>
+          <div class="panel-body">
 
+            <div class="row">
+              <div class="col-sm-2">
+                <label for="firstValue">Value 1:<br /></label>
+                <input name="firstValue" type="text" placeholder="First Number" id="firstValue"/>
 
+              </div>
+              <div class="col-sm-2 content-center">
+                <label for="secondValue">Value 2:<br /></label>
+                <input name="secondValue" type="text" placeholder="Second Number" id="secondValue"/>
+              </div>
+                <div class="col-sm-2">
+                  <button type="button" id="clearButton" class="btn btn-primary">Add</button>
 
- </div>
-  <script type="text/javascript" src="js/control-flow.js"></script>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2">
+                <button type="button" id="addButton" class="btn btn-primary">Add</button>
+                <!-- <input name="num1" type="text" placeholder="First Number" /> -->
+              </div>
+              <div class="col-sm-2">
+                <button  type="button"id="subtractButton" class="btn btn-primary">Subtract</button>
+                <!-- <input name="num2" type="text" placeholder="Second Number" /> -->
+              </div>
+              <div class="col-sm-2">
+                <button  type="button"id="multiplyButton" class="btn btn-primary">Multiply</button>
+                <!-- <input name="num1" type="text" placeholder="First Number" /> -->
+              </div>
+              <div class="col-sm-2">
+                <button  type="button"id="divideButton" class="btn btn-primary">Divide</button>
+                <!-- <input name="num2" type="text" placeholder="Second Number" /> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <script type="text/javascript" src="js/calc.js"></script>
 
 </body>
 </html>
